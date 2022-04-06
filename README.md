@@ -1,5 +1,5 @@
 # ggetjson
-Uses grequests to pull JSON en masse. 
+Mini-package uses grequests to pull JSON en masse. 
 
 ## Usage
 
