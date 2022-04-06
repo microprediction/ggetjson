@@ -4,7 +4,7 @@ from typing import List
 # I really must warn you about usin this. If you import grequests it will monkey patch
 # You need to read this issue and decide if it is worth it https://github.com/gevent/gevent/issues/1016
 
-def mrequest_json(urls:[str], failover_urls=None)->List:
+def grequest_json(urls:[str], failover_urls=None)->List:
     return mrequest_json_no_failover(urls) if failover_urls is None else mrequest_json_with_failover(urls=urls, failover_urls=failover_urls)
 
 
