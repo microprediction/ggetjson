@@ -8,4 +8,4 @@ Mini-package uses grequests to pull JSON en masse.
 
 ## Warning
 
-A bit dangerous due to the monkey patching. Use with care. If you don't really need lots of requests, the getjson package is simpler. 
+A bit dangerous due to the monkey patching. Use with care. If you don't really need lots of requests, the getjson package is simpler. Read this issue and decide if it is worth it https://github.com/gevent/gevent/issues/1016 for your purposes.
