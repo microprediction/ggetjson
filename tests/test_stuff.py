@@ -1,4 +1,4 @@
-from getjson import ggetjson
+from ggetjson import ggetjson
 
 
 valid_url_1          = 'https://config.microprediction.org/config.json'
